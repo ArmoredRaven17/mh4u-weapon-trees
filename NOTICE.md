@@ -1,0 +1,39 @@
+# Notices and Attributions
+
+The original source code of this project is MIT-licensed (see [LICENSE](LICENSE)). The materials
+below are not covered by that licence.
+
+## Game IP
+
+**Monster Hunter 4 Ultimate** and all related names, equipment, monsters, icons and data are
+trademarks and © Capcom Co., Ltd. This project is an **unofficial fan-made weapon-tree viewer**. It is
+not affiliated with, endorsed by, or sponsored by Capcom.
+
+## Game data and icons
+
+All weapon stats, names, recipes and upgrade links in `docs/index.html` are embedded at build time
+by [scripts/build.py](scripts/build.py) from the
+[MH4U Collection Tracker](https://github.com/ArmoredRaven17/mh4u-collection-tracker)'s generated
+`docs/data/`. That project reads them from a personally owned copy of the game, and its NOTICE
+covers how. The weapon icons (the equipment box icons, in the game's Rare 1-10 colours), the Hunting
+Horn note glyphs in the colours the game's HUD tints them, and the theme monster icons come from the
+same project and are all the game's own. The coating bottles are MHGU's, taken from the
+[MHGU Weapon Trees](https://github.com/ArmoredRaven17/mhgu-weapon-trees) page and matched to 4U's
+coatings by colour. **No game files are redistributed.**
+
+How weapons are grouped into lanes is this project's own layout choice and has no effect in the
+game. See `scripts/build.py`.
+
+## Icons from other projects
+
+- **The camera-toggle book icons** come from mhgu-editor, as in the MHGU Weapon Trees page.
+
+## UI assets
+
+The titlebar, theme picker, textures and the MHFU font are shared with the same author's MHGU fan
+apps. The MHGU Weapon Trees NOTICE gives their sources.
+
+## Development: AI assistance
+
+A large share of this project's code was written with **[Claude Code](https://claude.com/claude-code)**
+(Anthropic), directed and reviewed by the author.
